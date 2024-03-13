@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "strictPropertyInitialization": false, // Adjust based on your code
+    "noImplicitReturns": true,
+    "strictBindCallApply": true,
+    "alwaysStrict": true,
+    "newLine": "LF", // or "CRLF" for Windows
+    "outDir": "dist",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["*", "src/*"]
+    },
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "isolatedModules": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["src/**/*"]
+}
